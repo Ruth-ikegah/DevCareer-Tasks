@@ -1,0 +1,15 @@
+#Incomplete task, couldn't finish
+
+continents = {"Africa": {"Nigeria":8344, "Ghana":6964, "South Africa":24268},
+             "Europe": {"Uk":265227, "Russia":370680, "France":182722},
+             "North America": {"USA":1733961, "Canada":86939, "Mexico":74560},
+             "Asia":{"China":82994, "India":164761, "Turkey":158762},
+             "South America":{"Brazil":396654, "Argentina":13228, "Columbia":23003}}
+
+continent = input("Enter the continent of your choice: ")
+
+if continent in continents.keys():
+    for item,value in continents[continent].items():
+        print(item, value)
+        
+#I was not able to get the code to output the min, max, mean and sum of countries, it only outputs the particular cotinent details when the user selects.        
